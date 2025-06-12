@@ -1,0 +1,12 @@
+# === React Frontend ===
+Frontend/node_modules/
+Frontend/.env
+Frontend/build/
+Frontend/.DS_Store
+Frontend/dist/
+
+# === Common Stuff ===
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
