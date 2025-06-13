@@ -1,10 +1,12 @@
-function App() {
+import NavBar from "./components/nav-bar";
+import './index.css';
 
+function App() {
   return (
-    <>
-      <h1 className="font-bold">Hello world</h1>
-    </>
-  )
+    <div className="bg-[#0f172a] min-h-screen w-full">
+      <NavBar />
+    </div>
+  );
 }
 
-export default App
+export default App;

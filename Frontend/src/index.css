@@ -1,1 +1,7 @@
 @import "tailwindcss";
+/* Hover text-shadow effect */
+@media (min-width: 768px) {
+    a:hover {
+      text-shadow: 0 0 5px #2563eb, 0 0 10px #2563eb;
+    }
+  }
