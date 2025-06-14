@@ -3,7 +3,7 @@ const AboutMe = () => {
   return (
     <>
       {/* The div containing the components of AboutMe section */}
-      <div className="mt-20 mx-4 md:mx-14 flex flex-col md:flex-row gap-20 items-center md:items-start">
+      <div id="about" data-aos="fade-right" className="mt-20 mx-4 md:mx-14 flex flex-col md:flex-row gap-20 items-center md:items-start">
         {/* pfp */}
         <img src="/public/pfp.png" className="w-40 h-40 md:w-[15rem] md:h-[15rem] rounded-full"></img>
         {/* About me */}
@@ -11,7 +11,7 @@ const AboutMe = () => {
           <h1 className=" font-bold text-5xl leading-relaxed">
             About Me
           </h1>
-          <p>
+          <p className="leading-loose">
             I'm a passionate web developer who loves building responsive,
             user-friendly websites. I specialize in front-end technologies like
             HTML, CSS, tailwind CSS, and JavaScript, and I'm also familiar with
