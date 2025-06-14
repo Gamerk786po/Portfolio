@@ -3,10 +3,11 @@ const NavBar = () => {
   return (
     <>
       {/* The div containing nav bar and logo */}
-      <div className="flex justify-around items-center px-4 py-4 bg-[#0f172a] text-white">
-        <h1 className="text-blue-600 text-xl font-bold md:text-4xl">Gamerk</h1>
+      <div className="flex justify-evenly md:justify-around items-center px-4 py-4 bg-[#0f172a] text-white">
+        <h1 className="text-blue-600 font-bold text-xl md:text-4xl tracking-wide">Gamerk</h1>
+        {/* The nav bar components */}
         <nav className="text-white">
-          <ul className="flex gap-3 px-4 text-sm md:gap-6 md:text-lg">
+          <ul className="flex gap-2.5 px-4 text-sm md:gap-6 md:text-lg">
             <li>
               <a
                 href="#home"
