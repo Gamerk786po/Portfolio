@@ -1,7 +1,15 @@
 @import "tailwindcss";
+/* HTML scroll behaviour */
+html {
+  scroll-behavior: smooth;
+}
 /* Hover text-shadow effect */
 @media (min-width: 768px) {
     a:hover {
       text-shadow: 0 0 5px #2563eb, 0 0 10px #2563eb;
     }
   }
+/* The font for home section content */
+#home-para{
+  font-family: poppins;
+}
