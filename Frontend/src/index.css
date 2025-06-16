@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 /* Hover text-shadow effect */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     a:hover {
       text-shadow: 0 0 5px #2563eb, 0 0 10px #2563eb;
     }

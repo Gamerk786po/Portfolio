@@ -8,7 +8,7 @@ const AboutMe = () => {
         id="about"
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.5, ease: "easeInOut" }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
         viewport={{ once: false, amount: 0.3 }}
         className="min-h-screen mx-4 md:mx-14 flex flex-col md:flex-row gap-20 items-center justify-center md:items-center"
       >
@@ -19,7 +19,7 @@ const AboutMe = () => {
         ></img>
         {/* About me */}
         <div className="mx-auto text-gray-200  text-center">
-          <h1 className=" font-bold text-5xl leading-relaxed">About Me</h1>
+          <h1 className="text-gray-400 font-bold text-5xl leading-relaxed">About Me</h1>
           <motion.p
             initial={{ opacity: 0, lineHeight: "0.8" }}
             whileInView={{ opacity: 1, lineHeight: "2" }}
