@@ -5,7 +5,7 @@ import Service from "./service";
 const services = [
   {
     title: "Frontend Development",
-    url: "https://img.icons8.com/fluency/96/source-code.png",
+    url: "https://img.icons8.com/color/96/source-code--v1.png",
     description: "Crafting clean, responsive interfaces",
   },
   {
@@ -15,17 +15,17 @@ const services = [
   },
   {
     title: "Responsive Design",
-    url: "https://img.icons8.com/fluency/96/smartphone-tablet.png",
+    url: "https://www.svgrepo.com/download/439303/responsive-design.svg",
     description: "Websites that work on all screens",
   },
   {
     title: "Web Development",
-    url: "https://img.icons8.com/fluency/96/monitor.png",
+    url: "https://www.svgrepo.com/show/99357/web-development.svg",
     description: "Building full-featured modern websites",
   },
   {
     title: "Website Maintenance",
-    url: "https://img.icons8.com/fluency/96/maintenance.png",
+    url: "https://img.icons8.com/color/96/maintenance.png",
     description: "Fixing bugs and updates",
   },
 ];
