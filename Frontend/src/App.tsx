@@ -1,7 +1,9 @@
 import "./index.css"; // index.css for css
-import AboutMe from "./components/about-me"; // Importing AboutMe section
-import NavBar from "./components/nav-bar"; // Importing NavBar
-import Home from "./components/home";
+import AboutMe from "./components/About-me/about-me"; // Importing AboutMe section
+import NavBar from "./components/Nav-bar/nav-bar"; // Importing NavBar
+import Home from "./components/Home/home";
+import ServicesSection from "./components/Services-offered/services-section";
+
 
 function App() {
   // Returning
@@ -10,6 +12,7 @@ function App() {
       <NavBar />
       <Home />
       <AboutMe />
+      <ServicesSection />
     </div>
   );
 }
