@@ -4,11 +4,6 @@ import Service from "./service";
 // Services Data
 const services = [
   {
-    title: "Web Development",
-    url: "https://img.icons8.com/fluency/96/monitor.png",
-    description: "Building full-featured modern websites"
-  },
-  {
     title: "Frontend Development",
     url: "https://img.icons8.com/fluency/96/source-code.png",
     description: "Crafting clean, responsive interfaces"
@@ -24,6 +19,11 @@ const services = [
     description: "Websites that work on all screens"
   },
   {
+    title: "Web Development",
+    url: "https://img.icons8.com/fluency/96/monitor.png",
+    description: "Building full-featured modern websites"
+  },
+  {
     title: "Website Maintenance",
     url: "https://img.icons8.com/fluency/96/maintenance.png",
     description: "Fixing bugs and updates"
@@ -34,7 +34,7 @@ const ServicesSection = () => {
   return (
     <>
       {/* The section containing the services.*/}
-      <motion.section id="services" className="min-h-[90vh] md:min-h-screen flex flex-col items-center md:justify-center gap-14">
+      <motion.section id="services" className="min-h-[90vh] md:min-h-screen flex flex-col items-center md:justify-center gap-14 mt-17 lg:mt-0">
         <h1
           id="services-heading"
           className="text-gray-400 font-bold text-5xl leading-relaxed"

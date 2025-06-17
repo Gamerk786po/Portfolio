@@ -29,6 +29,11 @@ const AboutMe = () => {
             tools like React.js, Node.js, and MongoDB. I'm always eager to learn
             new things and turn ideas into real, working projects.
           </motion.p>
+          <a href="/resume.pdf" download className="block mt-4">
+            <button className="bg-blue-600 text-white px-5 py-2 rounded-full lg:hover:bg-blue-700 lg:hover:cursor-pointer transition">
+              Download Resume
+            </button>
+          </a>
         </div>
       </motion.section>
     </>
