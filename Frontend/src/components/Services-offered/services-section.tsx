@@ -6,27 +6,27 @@ const services = [
   {
     title: "Frontend Development",
     url: "https://img.icons8.com/fluency/96/source-code.png",
-    description: "Crafting clean, responsive interfaces"
+    description: "Crafting clean, responsive interfaces",
   },
   {
     title: "Backend Development",
     url: "https://img.icons8.com/fluency/96/server.png",
-    description: "Managing servers and databases"
+    description: "Managing servers and databases",
   },
   {
     title: "Responsive Design",
     url: "https://img.icons8.com/fluency/96/smartphone-tablet.png",
-    description: "Websites that work on all screens"
+    description: "Websites that work on all screens",
   },
   {
     title: "Web Development",
     url: "https://img.icons8.com/fluency/96/monitor.png",
-    description: "Building full-featured modern websites"
+    description: "Building full-featured modern websites",
   },
   {
     title: "Website Maintenance",
     url: "https://img.icons8.com/fluency/96/maintenance.png",
-    description: "Fixing bugs and updates"
+    description: "Fixing bugs and updates",
   },
 ];
 // The Services component
@@ -34,10 +34,17 @@ const ServicesSection = () => {
   return (
     <>
       {/* The section containing the services.*/}
-      <motion.section id="services" className="min-h-[90vh] md:min-h-screen flex flex-col items-center md:justify-center gap-14 mt-17 lg:mt-0">
+      <motion.section
+        id="services"
+        className="min-h-screen flex flex-col items-center md:justify-center gap-14 mt-30 lg:mt-0"
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1}}
+        transition={{ duration: 1.3, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.3 }}
+      >
         <h1
           id="services-heading"
-          className="text-gray-400 font-bold text-5xl leading-relaxed"
+          className="text-white font-bold text-2xl md:text-4xl leading-relaxed"
         >
           Services:
         </h1>

@@ -6,9 +6,9 @@ const AboutMe = () => {
       {/* The section containing the components of AboutMe section */}
       <motion.section
         id="about"
-        initial={{ opacity: 0, x: -150 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.3, ease: "easeInOut" }}
         viewport={{ once: false, amount: 0.3 }}
         className="min-h-screen mx-4 md:mx-14 flex flex-col md:flex-row gap-20 items-center justify-center md:items-center"
       >
@@ -30,8 +30,9 @@ const AboutMe = () => {
             new things and turn ideas into real, working projects.
           </motion.p>
           <a href="/resume.pdf" download className="block mt-4">
-            <button className="bg-blue-600 text-white px-5 py-2 rounded-full lg:hover:bg-blue-700 lg:hover:cursor-pointer transition">
-              Download Resume
+            <button className="bg-blue-600 text-xl text-white px-5 py-2 rounded-full lg:hover:bg-blue-700 lg:hover:cursor-pointer transition">
+              <span className="block md:hidden">Download</span>
+              <span className="hidden md:block">Download Resume</span>
             </button>
           </a>
         </div>
