@@ -3,6 +3,7 @@ import AboutMe from "./components/About-me/about-me"; // Importing AboutMe secti
 import NavBar from "./components/Nav-bar/nav-bar"; // Importing NavBar
 import Home from "./components/Home/home";
 import ServicesSection from "./components/Services-offered/services-section";
+import ProjectsSection from "./components/projects/projects-section";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <AboutMe />
       <ServicesSection />
+      <ProjectsSection />
     </div>
   );
 }

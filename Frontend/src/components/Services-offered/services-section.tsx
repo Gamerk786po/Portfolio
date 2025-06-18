@@ -46,7 +46,7 @@ const ServicesSection = () => {
           id="services-heading"
           className="text-white font-bold text-2xl md:text-4xl 2xl:text-5xl leading-relaxed"
         >
-          Services:
+          Services
         </h1>
         {/* The div containing servicers */}
         <div className="flex flex-row flex-wrap mx-1 gap-10 items-center justify-center">
