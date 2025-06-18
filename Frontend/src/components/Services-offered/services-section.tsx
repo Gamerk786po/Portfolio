@@ -44,7 +44,7 @@ const ServicesSection = () => {
       >
         <h1
           id="services-heading"
-          className="text-white font-bold text-2xl md:text-4xl leading-relaxed"
+          className="text-white font-bold text-2xl md:text-4xl 2xl:text-5xl leading-relaxed"
         >
           Services:
         </h1>
@@ -53,6 +53,7 @@ const ServicesSection = () => {
           {services.map((service) => (
             <Service
               key={service.title}
+              alt="Its an img for the service."
               title={service.title}
               url={service.url}
               description={service.description}
