@@ -7,7 +7,9 @@ const ProjectsSection = () => {
     {
       title: "Anime-characters-website",
       url: "https://www.svgrepo.com/show/419503/anime-and-manga.svg",
-      description: "build using React and TailwindCss",
+      description:
+        "A sleek and responsive anime character showcase built with React and Tailwind CSS, featuring dynamic cards and API integration.",
+      lanUsed: ["React Js", "TypeScript", "TailwindCss"],
       gitHub: "https://github.com/Gamerk786po/Anime-character-website",
       vercelLink: "https://animes-characters-showcase.vercel.app/",
     },
@@ -39,6 +41,7 @@ const ProjectsSection = () => {
               title={project.title}
               url={project.url}
               description={project.description}
+              lanUsed={project.lanUsed}
               gitHub={project.gitHub}
               gitHubImg={"https://img.icons8.com/fluency/96/github.png"}
               vercelLink={project.vercelLink}

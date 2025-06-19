@@ -2,7 +2,7 @@ const NavBar = () => {
   return (
     <>
       <div className="fixed top-0 left-0 w-full z-50 flex justify-evenly md:justify-around items-center px-4 py-4 bg-[#0f172a] text-white">
-        <h1 className="text-blue-600 font-bold text-xl md:text-4xl tracking-wide">
+        <h1 className="text-[#00BFFF] font-bold text-xl md:text-4xl tracking-wide">
           Gamerk
         </h1>
         <nav className="text-white">
