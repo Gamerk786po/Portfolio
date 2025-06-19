@@ -10,6 +10,6 @@ html {
     }
   }
 /* The font for home section content */
-#home-para, #services-heading, #projects-heading{
+#home-para, #services-heading, #showcase-heading{
   font-family: poppins;
 }
