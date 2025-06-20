@@ -7,7 +7,7 @@ const Home = () => {
       {/* section for home */}
       <section
         id="home"
-        className="min-h-screen mt-20 lg:mt-7 flex justify-center items-center flex-col gap-13"
+        className="min-h-screen md:mt-20 lg:mt-7 flex justify-center items-center flex-col gap-13"
       >
         {/* The content of Home */}
         <div

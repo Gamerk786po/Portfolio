@@ -4,6 +4,7 @@ import NavBar from "./components/Nav-bar/nav-bar"; // Importing NavBar
 import Home from "./components/Home/home";
 import ServicesSection from "./components/Services-offered/services-section";
 import ProjectsSection from "./components/projects/projects-section";
+import ContactsSection from "./components/contacts/contact-section";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <ServicesSection />
       <ProjectsSection />
+      <ContactsSection />
     </div>
   );
 }

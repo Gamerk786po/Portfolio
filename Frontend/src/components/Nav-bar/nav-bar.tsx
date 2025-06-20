@@ -61,7 +61,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#contacts"
                 className="block lg:hover:scale-105 active:scale-95 transition-all duration-200 text-center"
               >
                 <img
