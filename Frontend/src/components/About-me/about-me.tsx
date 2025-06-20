@@ -14,7 +14,7 @@ const AboutMe = () => {
       >
         {/* pfp */}
         <img
-          src="/public/pfp.png"
+          src="/pfp.png"
           alt="Pfp Img"
           className="w-40 h-40 md:w-[15rem] md:h-[15rem] rounded-full"
         ></img>
