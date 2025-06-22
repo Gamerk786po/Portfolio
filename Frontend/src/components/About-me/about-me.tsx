@@ -31,7 +31,13 @@ const AboutMe = () => {
             new things and turn ideas into real, working projects.
           </motion.p>
           <a href="/resume.pdf" download className="block mt-4">
-            <button className="bg-blue-600 text-xl text-white px-5 py-2 rounded-full lg:hover:bg-blue-700 lg:hover:cursor-pointer transition">
+            <button
+              className="bg-blue-500 text-white py-2 px-6 rounded-md transition-all duration-1000 
+             lg:hover:bg-blue-600 
+             lg:hover:shadow-[0_0_15px_#00f2ff] 
+             lg:hover:cursor-pointer 
+             font-semibold"
+            >
               <span className="block md:hidden">Download</span>
               <span className="hidden md:block">Download Resume</span>
             </button>

@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import Contact from "./contact";
+import ContactForm from "./email-form";
 // The component for contact-section
 const ContactsSection = () => {
   // The data for contacts
@@ -15,19 +16,19 @@ const ContactsSection = () => {
       icon: "https://img.icons8.com/ios-filled/50/32cdff/new-post.png",
     },
     {
-        title: "Gamerk786po",
-        link: "https://github.com/Gamerk786po",
-        icon: "https://img.icons8.com/ios-filled/50/32cdff/github.png",
+      title: "Gamerk786po",
+      link: "https://github.com/Gamerk786po",
+      icon: "https://img.icons8.com/ios-filled/50/32cdff/github.png",
     },
     {
-        title: "Abdullah A.",
-        link: "https://www.upwork.com/freelancers/~01bad5fc77abffa2eb",
-        icon: "https://img.icons8.com/ios-filled/50/32cdff/upwork.png",
+      title: "Abdullah A.",
+      link: "https://www.upwork.com/freelancers/~01bad5fc77abffa2eb",
+      icon: "https://img.icons8.com/ios-filled/50/32cdff/upwork.png",
     },
     {
-        title: "Abdullah (Gamerk) Adnan",
-        link: "https://www.linkedin.com/in/abdullah-adnan-052272305/",
-        icon: "https://img.icons8.com/ios-filled/50/32cdff/upwork.png",
+      title: "Abdullah (Gamerk) Adnan",
+      link: "https://www.linkedin.com/in/abdullah-adnan-052272305/",
+      icon: "https://img.icons8.com/ios-filled/50/32cdff/linkedin.png",
     },
   ];
   // The return the statement
@@ -36,7 +37,7 @@ const ContactsSection = () => {
       {/* The section for the contents of contacts */}
       <motion.section
         id="contacts"
-        className="min-h-screen flex md:flex-row flex-col md:justify-start gap-14 mt-30 lg:mt-0"
+        className="min-h-screen flex lg:flex-row flex-col items-center md:justify-start gap-14 mt-30 lg:mt-0"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.3, ease: "easeInOut" }}
@@ -62,6 +63,10 @@ const ContactsSection = () => {
               ))}
             </ul>
           </div>
+        </div>
+        {/* Email div */}
+        <div className="lg:mt-25 mt-2">
+          <ContactForm />
         </div>
       </motion.section>
     </>

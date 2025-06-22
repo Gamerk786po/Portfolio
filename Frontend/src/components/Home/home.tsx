@@ -33,7 +33,7 @@ const Home = () => {
               "Styled with Passion.",
               1000,
               "Passionate Developer",
-              1000
+              1000,
             ]}
             speed={30}
             wrapper="span"
@@ -53,7 +53,13 @@ const Home = () => {
         </div>
         {/* Button for exploring more */}
         <a href="#about">
-          <button className="text-xl md:text-2xl px-6 py-2 bg-blue-600 text-white rounded-full lg:hover:bg-blue-700 lg:hover:cursor-pointer transition-all duration-300">
+          <button
+            className="text-xl md:text-2xl px-6 py-2 bg-blue-500 text-white rounded-md 
+             transition-all duration-1000 
+             lg:hover:bg-blue-600 
+             lg:hover:shadow-[0_0_15px_#00f2ff] 
+             lg:hover:cursor-pointer font-semibold"
+          >
             Explore More
           </button>
         </a>
