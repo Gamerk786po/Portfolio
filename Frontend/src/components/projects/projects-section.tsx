@@ -19,7 +19,7 @@ const ProjectsSection = () => {
       {/* The section for showcase  */}
       <motion.section
         id="showcase"
-        className="min-h-screen flex flex-col items-center md:justify-center gap-14 mt-30 lg:mt-0"
+        className="min-h-screen flex flex-col items-center md:justify-center gap-14 xl:gap-10 mt-30 lg:mt-0"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.3, ease: "easeInOut" }}

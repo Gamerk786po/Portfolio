@@ -22,10 +22,10 @@ function ContactForm() {
       {showSuccess ? (
         <p className="text-green-400 text-lg mt-4 text-center xl:text-2xl">Thanks for your message!</p>
       ) : (
-        <form onSubmit={handleSubmit} className="flex flex-col gap-5 xl:gap-9 w-full">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-5 xl:gap-7 w-full">
           {/* Email Field */}
           <div className="flex flex-col">
-            <label htmlFor="email" className="text-gray-300 mb-1 xl:text-2xl">
+            <label htmlFor="email" className="text-gray-300 mb-1 xl:text-xl">
               Email Address
             </label>
             <input

@@ -30,7 +30,7 @@ const Project: React.FC<ProjectsProps> = ({
       {/* The div containing the heading and the icon of project */}
       <div className="flex flex-row p-1 mx-1">
         <img
-          className="h-8 w-11 2xl:h-12 2xl:w-17 px-3"
+          className="h-8 w-11 xl:h-12 xl:w-17 px-3"
           src={url}
           alt={alt}
         ></img>
