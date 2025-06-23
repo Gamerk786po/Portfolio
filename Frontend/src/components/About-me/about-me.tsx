@@ -16,14 +16,14 @@ const AboutMe = () => {
         <img
           src="/pfp.png"
           alt="Pfp Img"
-          className="w-40 h-40 md:w-[15rem] md:h-[15rem] rounded-full"
+          className="w-40 h-40 md:w-[15rem] md:h-[15rem] xl:w-[20rem] xl:h-[20rem] rounded-full"
         ></img>
         {/* About me */}
         <div className="mx-auto text-gray-200  text-center">
           <h1 className="text-gray-400 font-bold text-5xl leading-relaxed">
             About Me
           </h1>
-          <motion.p className="leading-loose md:text-xl ">
+          <motion.p className="leading-loose md:text-xl xl:text-3xl ">
             I'm a passionate web developer who loves building responsive,
             user-friendly websites. I specialize in front-end technologies like
             HTML, CSS, tailwind CSS, and JavaScript, and I'm also familiar with
@@ -32,7 +32,7 @@ const AboutMe = () => {
           </motion.p>
           <a href="/resume.pdf" download className="block mt-4">
             <button
-              className="bg-blue-500 text-white py-2 px-6 rounded-md transition-all duration-1000 
+              className="bg-blue-500 text-white py-2 xl:py-4 px-6 xl:px-7 xl:text-2xl rounded-md transition-all duration-1000 
              lg:hover:bg-blue-600 
              lg:hover:shadow-[0_0_15px_#00f2ff] 
              lg:hover:cursor-pointer 

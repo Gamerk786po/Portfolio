@@ -54,7 +54,7 @@ const Home = () => {
         {/* Button for exploring more */}
         <a href="#about">
           <button
-            className="text-xl md:text-2xl px-6 py-2 bg-blue-500 text-white rounded-md 
+            className="text-xl md:text-2xl py-2 xl:py-4 px-6 xl:px-7 xl:text-2xl bg-blue-500 text-white rounded-md 
              transition-all duration-1000 
              lg:hover:bg-blue-600 
              lg:hover:shadow-[0_0_15px_#00f2ff] 

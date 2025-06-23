@@ -20,12 +20,12 @@ function ContactForm() {
   return (
     <div className="flex flex-col items-center justify-center bg-[#0f172a] border border-black rounded-xl p-6 w-[90vw] max-w-md shadow-md">
       {showSuccess ? (
-        <p className="text-green-400 text-lg mt-4 text-center">Thanks for your message!</p>
+        <p className="text-green-400 text-lg mt-4 text-center xl:text-2xl">Thanks for your message!</p>
       ) : (
-        <form onSubmit={handleSubmit} className="flex flex-col gap-5 w-full">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-5 xl:gap-9 w-full">
           {/* Email Field */}
           <div className="flex flex-col">
-            <label htmlFor="email" className="text-gray-300 mb-1">
+            <label htmlFor="email" className="text-gray-300 mb-1 xl:text-2xl">
               Email Address
             </label>
             <input
@@ -40,7 +40,7 @@ function ContactForm() {
 
           {/* Message Field */}
           <div className="flex flex-col">
-            <label htmlFor="message" className="text-gray-300 mb-1">
+            <label htmlFor="message" className="text-gray-300 mb-1 xl:text-2xl">
               Your Message
             </label>
             <textarea
