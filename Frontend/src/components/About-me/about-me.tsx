@@ -30,7 +30,7 @@ const AboutMe = () => {
             tools like React.js, Node.js, and MongoDB. I'm always eager to learn
             new things and turn ideas into real, working projects.
           </motion.p>
-          <a href="/resume.pdf" download className="block mt-4 2xl:mt-6">
+          <a href="/Abdullah-Resume.pdf" download className="block mt-4 2xl:mt-6">
             <button
               className="bg-blue-500 text-white py-2 xl:py-4 2xl:py-6 px-6 xl:px-7 2xl:px-10 xl:text-2xl 2xl:text-4xl rounded-md transition-all duration-700 lg:hover:bg-blue-600 
              lg:hover:shadow-[0_0_15px_#00f2ff] 
