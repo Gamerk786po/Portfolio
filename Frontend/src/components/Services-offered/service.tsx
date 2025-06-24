@@ -11,7 +11,7 @@ interface ServiceProps {
 const Service: React.FC<ServiceProps> = ({ title, url, description, alt }) => {
   return (
     // The div containing the content of service
-    <div className="flex flex-col items-center justify-center p-3 2xl:p-7 bg-slate-800 rounded-xl">
+    <div className="flex flex-col items-center justify-center p-3 2xl:p-7 bg-slate-800 rounded-xl border border-transparent lg:hover:border lg:hover:border-black lg:hover:cursor-pointer transition-all duration-300">
       {/* The div containing the heading and the icon */}
       <div className="flex flex-row p-1 mx-1">
         <img

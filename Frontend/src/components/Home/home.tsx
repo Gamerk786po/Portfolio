@@ -55,7 +55,7 @@ const Home = () => {
         <a href="#about" className= "2xl:mt-6">
           <button
             className="text-xl 2xl:text-5xl py-2 xl:py-4 2xl:py-6 px-5 xl:px-7 2xl:px-8 xl:text-2xl bg-blue-500 text-white rounded-md 
-             transition-all duration-1000 
+             transition-all duration-700 
              lg:hover:bg-blue-600 
              lg:hover:shadow-[0_0_15px_#00f2ff] 
              lg:hover:cursor-pointer font-semibold"

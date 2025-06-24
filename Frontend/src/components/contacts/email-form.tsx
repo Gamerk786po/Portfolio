@@ -57,7 +57,7 @@ function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="bg-blue-500 text-white py-2 px-6 rounded-md transition-all duration-1000 hover:bg-blue-600 lg:hover:shadow-[0_0_15px_#00f2ff] lg:hover:cursor-pointer font-semibold disabled:opacity-50 2xl:text-xl 2xl:py-3 2xl:px-8"
+            className="bg-blue-500 text-white py-2 px-6 rounded-md transition-all duration-700 hover:bg-blue-600 lg:hover:shadow-[0_0_15px_#00f2ff] lg:hover:cursor-pointer font-semibold disabled:opacity-50 2xl:text-xl 2xl:py-3 2xl:px-8"
           >
             {state.submitting ? "Sending..." : "Send Message"}
           </button>

@@ -26,7 +26,7 @@ const Project: React.FC<ProjectsProps> = ({
 }) => {
   return (
     // The div containing the content of projects
-    <div className="flex flex-col items-center justify-center p-3 xl:p-6 gap-5 bg-slate-800 rounded-xl max-w-[20rem] xl:max-w-[35rem] 2xl:max-w-[40rem]">
+    <div className="flex flex-col items-center justify-center p-3 xl:p-6 gap-5 bg-slate-800 rounded-xl max-w-[20rem] xl:max-w-[35rem] 2xl:max-w-[40rem] border border-transparent lg:hover:border lg:hover:border-black lg:hover:cursor-pointer transition-all duration-300">
       {/* The div containing the heading and the icon of project */}
       <div className="flex flex-row p-1 mx-1">
         <img
