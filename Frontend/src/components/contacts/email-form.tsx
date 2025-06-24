@@ -18,14 +18,14 @@ function ContactForm() {
   }, [state.succeeded]);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#0f172a] border border-black rounded-xl p-6 w-[90vw] max-w-md shadow-md">
+    <div className="flex flex-col items-center justify-center bg-[#0f172a] border border-black rounded-xl p-6 w-[90vw] max-w-md shadow-md 2xl:p-10 2xl:max-w-xl">
       {showSuccess ? (
-        <p className="text-green-400 text-lg mt-4 text-center xl:text-2xl">Thanks for your message!</p>
+        <p className="text-green-400 text-lg mt-4 text-center xl:text-2xl 2xl:text-3xl">Thanks for your message!</p>
       ) : (
         <form onSubmit={handleSubmit} className="flex flex-col gap-5 xl:gap-7 w-full">
           {/* Email Field */}
           <div className="flex flex-col">
-            <label htmlFor="email" className="text-gray-300 mb-1 xl:text-xl">
+            <label htmlFor="email" className="text-gray-300 mb-1 xl:text-2xl 2xl:text-3xl">
               Email Address
             </label>
             <input
@@ -57,7 +57,7 @@ function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="bg-blue-500 text-white py-2 px-6 rounded-md transition-all duration-1000 hover:bg-blue-600 lg:hover:shadow-[0_0_15px_#00f2ff] lg:hover:cursor-pointer font-semibold disabled:opacity-50"
+            className="bg-blue-500 text-white py-2 px-6 rounded-md transition-all duration-1000 hover:bg-blue-600 lg:hover:shadow-[0_0_15px_#00f2ff] lg:hover:cursor-pointer font-semibold disabled:opacity-50 2xl:text-xl 2xl:py-3 2xl:px-8"
           >
             {state.submitting ? "Sending..." : "Send Message"}
           </button>

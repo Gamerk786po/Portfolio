@@ -37,7 +37,7 @@ const ContactsSection = () => {
       {/* The section for the contents of contacts */}
       <motion.section
         id="contacts"
-        className="min-h-screen flex lg:flex-row flex-col items-center md:justify-start xl:justify-center gap-14 mt-30 lg:mt-0"
+        className="min-h-screen flex lg:flex-row flex-col items-center md:justify-start xl:justify-center gap-14 mt-30 lg:mt-0 2xl:gap-28"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.3, ease: "easeInOut" }}
@@ -46,7 +46,7 @@ const ContactsSection = () => {
         {/* The contacts part of this section */}
         <div className="flex flex-col items-center gap-6 mt-25">
           {/* The heading for contacts */}
-          <h1 className="text-gray-400 font-bold px-5 text-4xl xl:text-6xl leading-relaxed">
+          <h1 className="text-gray-400 font-bold px-5 text-3xl xl:text-5xl 2xl:text-7xl leading-relaxed">
             Contact Me
           </h1>
           {/* The div containing the contacts */}
@@ -65,7 +65,7 @@ const ContactsSection = () => {
           </div>
         </div>
         {/* Email div */}
-        <div className="lg:mt-25 mt-2">
+        <div className="lg:mt-25 mt-2 2xl:mt-32">
           <ContactForm />
         </div>
       </motion.section>
