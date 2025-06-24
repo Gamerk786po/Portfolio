@@ -19,7 +19,7 @@ const Service: React.FC<ServiceProps> = ({ title, url, description, alt }) => {
           src={url}
           alt={alt}
         ></img>
-        <h3 className="text-xl xl:text-2xl 2xl:text-4xl font-bold text-white tracking-tighter md:tracking-tight xl:-tracking-wide 2xl:tracking-wider">{title}</h3>
+        <h3 className="text-xl md:text-[15px] xl:text-2xl 2xl:text-4xl font-bold text-white tracking-tighter md:tracking-tight xl:-tracking-wide 2xl:tracking-wider">{title}</h3>
       </div>
       <p className="text-[12px] md:text-[14px] xl:text-[22px] 2xl:text-[27px] text-slate-300 tracking-tighter md:tracking-tight xl:tracking-wide 2xl:tracking-wider">{description}</p>
     </div>

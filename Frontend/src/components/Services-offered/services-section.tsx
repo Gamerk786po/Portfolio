@@ -44,7 +44,7 @@ const ServicesSection = () => {
       >
         <h1
           id="services-heading"
-          className="text-white font-bold text-2xl md:text-4xl 2xl:text-6xl leading-relaxed"
+          className="text-white font-bold text-2xl md:text-3xl xl:text-4xl 2xl:text-6xl leading-relaxed"
         >
           Services
         </h1>

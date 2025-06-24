@@ -28,7 +28,7 @@ const ProjectsSection = () => {
         {/* Heading of showcase */}
         <h1
           id="showcase-heading"
-          className="text-white font-bold text-2xl md:text-4xl 2xl:text-5xl leading-relaxed"
+          className="text-white font-bold text-2xl xl:text-4xl 2xl:text-5xl leading-relaxed"
         >
           Showcase
         </h1>
