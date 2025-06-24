@@ -10,7 +10,7 @@ const AboutMe = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.3, ease: "easeInOut" }}
         viewport={{ once: false, amount: 0.3 }}
-        className="min-h-screen mx-4 md:mx-14 flex flex-col md:flex-row gap-20 items-center justify-center md:items-center"
+        className="min-h-screen mx-4 md:mx-14 flex flex-col md:flex-col lg:flex-row gap-20 items-center justify-center md:items-center"
       >
         {/* pfp */}
         <img
