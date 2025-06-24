@@ -44,12 +44,12 @@ const ServicesSection = () => {
       >
         <h1
           id="services-heading"
-          className="text-white font-bold text-2xl md:text-4xl 2xl:text-5xl leading-relaxed"
+          className="text-white font-bold text-2xl md:text-4xl 2xl:text-6xl leading-relaxed"
         >
           Services
         </h1>
         {/* The div containing servicers */}
-        <div className="flex flex-row flex-wrap mx-1 gap-10 items-center justify-center">
+        <div className="flex flex-row flex-wrap mx-1 gap-10 2xl:gap-15 items-center justify-center">
           {services.map((service) => (
             <Service
               key={service.title}
