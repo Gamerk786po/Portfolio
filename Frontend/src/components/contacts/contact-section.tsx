@@ -37,7 +37,7 @@ const ContactsSection = () => {
       {/* The section for the contents of contacts */}
       <motion.section
         id="contacts"
-        className="min-h-screen flex lg:flex-row flex-col items-center md:justify-start xl:justify-center gap-14 mt-30 lg:mt-0 2xl:gap-28"
+        className="min-h-screen flex lg:flex-row flex-col items-center md:justify-start xl:justify-center gap-14 mt-10 lg:mt-0 2xl:gap-28"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.3, ease: "easeInOut" }}
