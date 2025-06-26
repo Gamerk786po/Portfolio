@@ -40,20 +40,6 @@ Welcome to my personal **Developer & Designer Portfolio**, built with **React.js
 
 ---
 
-## 📂 Folder Structure
-
-Portfolio/
-├── public/
-│ └── assets/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.jsx
-│ └── index.css
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-
 yaml
 Copy
 Edit
