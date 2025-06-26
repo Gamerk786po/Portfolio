@@ -57,14 +57,13 @@ Hi! I'm **Gamerk786po**, a passionate front-end developer and anime enthusiast. 
 Feel free to reach out through the contact form on the site or connect via:
 
 - GitHub: [@Gamerk786po](https://github.com/Gamerk786po)
-- Email: (You can add your email here if you want)
+- Email: (abdullahpper@gmail.com)
 
 ---
 
 ## 🧪 Future Improvements
 
 - Add animations using Framer Motion
-- Fully functional contact form using EmailJS or Formspree
 - Add testimonials section
 - Add theme toggler (light/dark mode)
 
