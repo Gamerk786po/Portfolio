@@ -65,8 +65,6 @@ Feel free to reach out through the contact form on the site or connect via:
 
 - Add animations using Framer Motion
 - Add testimonials section
-- Add theme toggler (light/dark mode)
-
 ---
 
 ## ⚡ Getting Started (Optional for Devs)
