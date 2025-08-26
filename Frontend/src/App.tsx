@@ -11,7 +11,7 @@ import Footer from "./components/footer/footer";
 function App() {
   // Returning
   return (
-    <div className="bg-[#0f172a] min-h-screen w-full overflow-x-hidden">
+    <div className="bg-[#0f172a] min-h-screen w-full overflow-x-hidden overflow-y-hidden">
       <NavBar />
       <Home />
       <AboutMe />

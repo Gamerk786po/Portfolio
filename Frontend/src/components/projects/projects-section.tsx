@@ -13,6 +13,15 @@ const ProjectsSection = () => {
       gitHub: "https://github.com/Gamerk786po/Anime-character-website",
       vercelLink: "https://animes-characters-showcase.vercel.app/",
     },
+    {
+      title: "Pokédex",
+      url: "https://www.svgrepo.com/show/276264/pokeball-pokemon.svg",
+      description:
+        "An interactive and responsive Pokédex built with React, TypeScript, and Tailwind CSS, powered by the PokéAPI. Features include paginated Pokémon data and smooth animations for an engaging user experience.",
+      lanUsed: ["React Js", "TypeScript", "TailwindCss", "PokéAPI", "Framer-motion"],
+      gitHub: "https://github.com/Gamerk786po/Pokedex",
+      vercelLink: "https://pokedex-xi-amber-28.vercel.app/"
+    },
   ];
   return (
     <>
